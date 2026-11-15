@@ -1,0 +1,15 @@
+{
+	"name": "spotazureproject",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true
+		}
+	},
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "42a1c867-3e80-4960-ad61-ed618fa285db",
+		"tenantId": "c299b330-0406-44f0-90ee-82ddde4a5629"
+	}
+}
