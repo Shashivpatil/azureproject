@@ -1,0 +1,27 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "spotazureproject"
+		},
+		"AzureSql_ls_password": {
+			"value": ""
+		},
+		"DataLake_accountKey": {
+			"value": ""
+		},
+		"AzureSql_ls_properties_typeProperties_server": {
+			"value": "azureprojectsserver.database.windows.net"
+		},
+		"AzureSql_ls_properties_typeProperties_database": {
+			"value": "spotsdb"
+		},
+		"AzureSql_ls_properties_typeProperties_userName": {
+			"value": "shashi"
+		},
+		"DataLake_properties_typeProperties_url": {
+			"value": "https://spotazureproject.dfs.core.windows.net/"
+		}
+	}
+}
